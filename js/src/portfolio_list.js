@@ -30,7 +30,7 @@ function student(i){
 
 
 
-     studentLast.append('<dd><a>사이트 바로가기</a></dd>');
+     studentLast.append('<dd><a>사이트<br /> 바로가기</a></dd>');
 	   $('.student').eq(j).find('a').attr({"href":pf[i].student[j].link, "target":"_blank"});
 	 }
 	}

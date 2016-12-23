@@ -60,7 +60,7 @@
 			"etc":pc,
 			"link":"https://youhyein.github.io/tonymoly"},
 		// 수강생_8: 이재형 -----------------------------------------------------
-			{"img":base + "kimjs.jpg",	"imgAlt":imgAlt,
+			{"img":base + "leejh.jpg",	"imgAlt":imgAlt,
 			"name":"이재형",
 			"site":"리바이스 리뉴얼"+"https://puky1027.github.io/",
 			"useProgram":"Photoshop, illustrator, html, css, jQuery",
