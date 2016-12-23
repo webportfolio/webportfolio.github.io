@@ -80,7 +80,20 @@
 			// "useProgram":"Photoshop, illustrator, html, css, jQuery",
 			// "etc":pc,
 			// "link":"http://"},
-		]} // study과정1
+		]}, // study과정1
+
+		// study과정2 ============================================================
+		// {"study":"2016.02 webdesign 과정",
+		// "student":
+		// [
+		// // 수강생_1: 이재영 -----------------------------------------------------
+		// 	{"img":base + "leejy.jpg",	"imgAlt":imgAlt,
+		// 	"name":"이재영",
+		// 	"site":person + "https://wodud222.github.io",
+		// 	"useProgram":useProgram,
+		// 	"etc":responsive,
+		// 	"link":"https://wodud222.github.io"}
+		// 	]}
 	];  
 
 
