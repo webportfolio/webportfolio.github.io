@@ -1,6 +1,6 @@
 
 	var base = "./img/portfolio/";
-	var missimg = "webpf_img.svg";
+	var missimg = "webpf_img.svg";  
 	var suwon01 = base+"suwon_1606/";
 	var suwon02 = base+"suwon_1612/";
 	var gangnam1602 = base+"gangnam_1602";
