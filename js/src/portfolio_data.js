@@ -2,15 +2,100 @@
 	var base = "./img/portfolio/";
 	var missimg = "webpf_img.svg";
 	var suwon01 = base+"suwon_1606/";
+	var suwon02 = base+"suwon_1612/";
 	var gangnam1602 = base+"gangnam_1602";
 
 	var imgAlt = "수강생 포트폴리오 이미지";
 	var person = "개인포트폴리오 ";
 
 	var useProgram = "Photoshop, illustrator, html, css, jQuery";
+	var moreProgram = ", scss";
 	var responsive = "mobile, tablet, pc (반응형 웹)";
 	var pc ="pc";
 	var pf = [
+	// study과정6 mobile uiux 161230-170526 ============================================================
+		{"study":"2016.12 <br/>Mobile UI/UX 과정",
+		"student": // 임호, 박소정, 김미례, 안민지, 박윤서, 임나현,  김세미
+		[
+		// 수강생_1: 임호 사이트1 -----------------------------------------------------
+			{"img":suwon02 + "limho.jpg",	"imgAlt":imgAlt+"임호",
+			"name":"임호",
+			"site":'가구브랜드 BENS',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://limhoooo.github.io/portfolio/bens/"},
+		// 수강생_1: 임호 사이트2 -----------------------------------------------------
+			{"img":suwon02 + "limho2.jpg",	"imgAlt":imgAlt+"카스",
+			"name":"임호",
+			"site":'CASS 프로모션',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://limhoooo.github.io/portfolio/cass/"},
+
+		// 수강생_2: 박소정 사이트1 -----------------------------------------------------
+			{"img":suwon02 + "sojeong1.jpg",	"imgAlt":imgAlt+"경복궁",
+			"name":"박소정",
+			"site":'경복궁',
+			"useProgram":useProgram + moreProgram,
+			"etc":pc,
+			"link":"https://sojeongweb.github.io/portfolio/project_01_Gyeongbokgung/www/html/main.html"},
+		// 수강생_2: 박소정 사이트2 -----------------------------------------------------
+			{"img":suwon02 + "sojeong2.jpg",	"imgAlt":imgAlt+"언노운 보드대회",
+			"name":"박소정",
+			"site":'언노운보드대회 프로모션',
+			"useProgram":useProgram + moreProgram,
+			"etc":pc,
+			"link":"https://sojeongweb.github.io/portfolio/project_03_unknown/www/www/html/main.html"},
+			
+		// 수강생_3: 김미례 사이트1 -----------------------------------------------------
+			{"img":suwon02 + "mirye1.jpg",	"imgAlt":imgAlt+"육아지원센터",
+			"name":"김미례",
+			"site":'중앙육아 종합지원센터',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://miryepf.github.io/childcare_redesign/html/main.html"},
+		// 수강생_3: 김미례 사이트2 -----------------------------------------------------
+			{"img":suwon02 + "mirye2.jpg",	"imgAlt":imgAlt+"아람미술관",
+			"name":"김미례",
+			"site":'아람미술관 프로모션',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://miryepf.github.io/promotion_page/html/promotion.html"},
+			
+		// 수강생_4: 안민지 사이트1 -----------------------------------------------------
+			{"img":suwon02 + "minji.jpg",	"imgAlt":imgAlt+"에스티로더",
+			"name":"안민지",
+			"site":'에스티로더',
+			"useProgram":useProgram + moreProgram,
+			"etc":pc,
+			"link":"https://minjiweb.github.io/portfolio/esteeLauder/html/estee_lauder_main.html"},
+		
+		// 수강생_5: 박윤서 사이트1 -----------------------------------------------------
+			{"img":suwon02 + "yoonseo.jpg",	"imgAlt":imgAlt+"베가",
+			"name":"박윤서",
+			"site":'핸드폰제조회사 베가',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://parkbbang.github.io/portfolio/vega/html/vega_main.html"},
+			
+		// 수강생_6: 임나현 사이트1 -----------------------------------------------------
+			{"img":suwon02 + "nahyeon.jpg",	"imgAlt":imgAlt+"종묘",
+			"name":"임나현",
+			"site":'종묘 프로모션',
+			"useProgram":useProgram + moreProgram,
+			"etc":pc,
+			"link":"https://nahyeonweb.github.io/portfolio/cultureDay/html/jongmyo_main.html"},
+			
+		// 수강생_7: 김세미 사이트1 -----------------------------------------------------
+			{"img":suwon02 + "semi.jpg",	"imgAlt":imgAlt+"디저트페어",
+			"name":"김세미",
+			"site":'디저트페어 프로모션',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://s2meweb.github.io/portfolio/dessert/html/dessertfair.html"},
+			
+		
+		]}, 
 // study과정5 ============================================================
 		{"study":"2016.06 <br/>Mobile UI/UX 과정",
 		"student":
