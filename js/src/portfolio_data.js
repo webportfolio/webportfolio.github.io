@@ -17,20 +17,27 @@
 		{"study":"2016.12 <br/>Mobile UI/UX 과정",
 		"student": // 임호, 박소정, 김미례, 안민지, 박윤서, 임나현,  김세미
 		[
-		// 수강생_1: 임호 사이트1 -----------------------------------------------------
+      // 수강생_1: 임호 사이트1 -----------------------------------------------------
 			{"img":suwon02 + "limho.jpg",	"imgAlt":imgAlt+"임호",
 			"name":"임호",
-			"site":'가구브랜드 BENS',
+			"site":'포트폴리오 개인사이트',
 			"useProgram":useProgram,
 			"etc":pc,
-			"link":"https://limhoooo.github.io/portfolio/bens/"},
-		// 수강생_1: 임호 사이트2 -----------------------------------------------------
-			{"img":suwon02 + "limho2.jpg",	"imgAlt":imgAlt+"카스",
-			"name":"임호",
-			"site":'CASS 프로모션',
-			"useProgram":useProgram,
-			"etc":pc,
-			"link":"https://limhoooo.github.io/portfolio/cass/"},
+			"link":"https://limhoooo.github.io/"},
+//		// 수강생_1: 임호 사이트1 -----------------------------------------------------
+//			{"img":suwon02 + "limho1.jpg",	"imgAlt":imgAlt+"임호",
+//			"name":"임호",
+//			"site":'가구브랜드 BENS',
+//			"useProgram":useProgram,
+//			"etc":pc,
+//			"link":"https://limhoooo.github.io/portfolio/bens/"},
+//		// 수강생_1: 임호 사이트2 -----------------------------------------------------
+//			{"img":suwon02 + "limho2.jpg",	"imgAlt":imgAlt+"카스",
+//			"name":"임호",
+//			"site":'CASS 프로모션',
+//			"useProgram":useProgram,
+//			"etc":pc,
+//			"link":"https://limhoooo.github.io/portfolio/cass/"},
 
 		// 수강생_2: 박소정 사이트1 -----------------------------------------------------
 			{"img":suwon02 + "sojeong1.jpg",	"imgAlt":imgAlt+"경복궁",
