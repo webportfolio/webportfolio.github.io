@@ -1,0 +1,15 @@
+
+// variable.scss 
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+// color
+$color: ( primary :#777, main :#f06, sub1 :#0af, sub2 :#afc, dark :#333, gray :#777, point:darken(#0af, 20%), font1 :#333, font2 :#777, white :#fff, black :#171717, line1 :#f06, line2 :#777, line3 :#171717, zero :transparent);
+
+// line
+$line: ( l1:1px solid map-get($color, line1), l2:2px solid map-get($color, line2), l3:3px solid map-get($color, point));
+
+// font
+$size: 16 / 16;
+$fontSize: ( base: $size + rem, big: ($size * 2) + rem, big2: ($size * 1.5) + rem, small: ($size * 0.9) + rem, );
+$fontFamily:( english:("myriad pro", arial), korean:(nanumGothic, "nanum Gothic", dotum), all:(english, korean, sans-serif));

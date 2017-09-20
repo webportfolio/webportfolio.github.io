@@ -1,0 +1,28 @@
+/* ========== main.css ========== */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/* ============== headBox.css ============== */
+#headBox { width: 100%; height: auto; padding: 16px; padding: 1rem; background-color: #006699; color: #fff; font-size: 32px; font-size: 2rem; margin-bottom: 32px; margin-bottom: 2rem; }
+
+#headBox:hover a { color: #fff; font-weight: bold; text-shadow: 3.2px 3.2px 3.2px #777; text-shadow: 0.2rem 0.2rem 0.2rem #777; text-decoration: underline; }
+
+#headBox > h1 { font-size: inherit; color: inherit; text-align: center; }
+
+/* ========== mainContent.css ========== */
+#mainContent { width: 960px; margin: 0 auto; text-align: center; }
+
+#mainContent .logo { width: 160px; width: 10rem; height: auto; margin: 8px auto; margin: 0.5rem auto; }
+
+#mainContent .logo > img { width: 100%; height: auto; }
+
+#mainContent > h2 { border-bottom: 1px solid #f06; padding-bottom: 8px; padding-bottom: 0.5rem; margin-bottom: 16px; margin-bottom: 1rem; font-size: 24px; font-size: 1.5rem; color: #006699; }
+
+#mainContent h3 { font-size: 24px; font-size: 1.5rem; margin-top: 16px; margin-top: 1rem; border-bottom: 2px solid #777; }
+
+#mainContent > p { line-height: 22.4px; line-height: 1.4rem; color: #777; text-align: center; }
+
+#mainContent #modules { width: 300px; margin: 16px auto; margin: 1rem auto; padding: 16px; padding: 1rem; background-color: #cceeff; color: #171717; text-align: left; font-size: 17.6px; font-size: 1.1rem; line-height: 24px; line-height: 1.5rem; border-radius: 0.5rem; word-spacing: 4.8px; word-spacing: 0.3rem; }
+
+/* ============== footBox.css ============== */
+#footBox { width: 100%; height: auto; padding: 16px; padding: 1rem; margin-top: 16px; margin-top: 1rem; background-color: #777; color: #fff; }
+
+#footBox > p { font-size: 14.4px; font-size: 0.9rem; text-align: center; }
