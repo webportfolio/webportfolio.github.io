@@ -1,0 +1,9 @@
+./node_modules/ 
+**/node_modules/ 
+**/node_modules/**.**
+ **/*.psd
+ **/*.ai
+ **/*.eps
+
+ 
+ ./gulp_1709/node_modules/
