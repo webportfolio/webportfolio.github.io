@@ -12,7 +12,7 @@
 	var useProgram = "Photoshop, illustrator, html, css, jQuery";
 	var moreProgram = ", scss";
 	var responsive = "mobile, tablet, pc (반응형 웹)";
-	var pc ="pc";
+	var pc ="pc"; 
 	var pf = [
 // study과정7 service web 170530-171030 ============================================================
 		{"study":"2017.05 <br/>service webdesign UI/UX 과정",
