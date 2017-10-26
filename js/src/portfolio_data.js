@@ -32,7 +32,14 @@
 			"site":'동물보호 관리',
 			"useProgram":useProgram,
 			"etc":pc,
-			"link":"https://sojeongweb.github.io/portfolio/project_01_Gyeongbokgung/www/html/main.html"},
+			"link":"https://birdme0418.github.io/parksaena/"},
+		// 수강생_2: 박새나 사이트2 -----------------------------------------------------
+			{"img":suwon03 + "saena_02.jpg",	"imgAlt":imgAlt+"텀블벅",
+			"name":"박새나",
+			"site":'텀블벅',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://tumblbugproject.github.io/tumblbug"},
 		// 수강생_3: 서보람 사이트1 -----------------------------------------------------
 			{"img":suwon03 + "boram.jpg",	"imgAlt":imgAlt+"이케아",
 			"name":"서보람",
