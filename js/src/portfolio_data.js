@@ -3,6 +3,7 @@
 	var missimg = "webpf_img.svg";  
 	var suwon01 = base+"suwon_1606/";
 	var suwon02 = base+"suwon_1612/";
+	var suwon03 = base+"suwon_1705/";
 	var gangnam1602 = base+"gangnam_1602";
 
 	var imgAlt = "수강생 포트폴리오 이미지";
@@ -13,6 +14,107 @@
 	var responsive = "mobile, tablet, pc (반응형 웹)";
 	var pc ="pc";
 	var pf = [
+// study과정7 service web 170530-171030 ============================================================
+		{"study":"2017.05 <br/>service webdesign UI/UX 과정",
+		"student": // 김하영, 박새나, 안영란, 서보람, 이단비, 이수진, 이현준, 전혜빈
+		[
+      // 수강생_1: 김하영 사이트1 -----------------------------------------------------
+			{"img":suwon03 + "hayoung.jpg",	"imgAlt":imgAlt+"김하영",
+			"name":"김하영",
+			"site":'ARTBOX',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+
+		// 수강생_2: 박새나 사이트1 -----------------------------------------------------
+			{"img":suwon03 + "saena.jpg",	"imgAlt":imgAlt+"animal",
+			"name":"박새나",
+			"site":'동물보호 관리',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://sojeongweb.github.io/portfolio/project_01_Gyeongbokgung/www/html/main.html"},
+		// 수강생_3: 서보람 사이트1 -----------------------------------------------------
+			{"img":suwon03 + "boram.jpg",	"imgAlt":imgAlt+"이케아",
+			"name":"서보람",
+			"site":'이케아',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://ramiportfolio.github.io/ikea_project/www/"},
+			
+		// 수강생_4: 안영란 사이트1 -----------------------------------------------------
+			{"img":suwon03 + "youngran_01.jpg",	"imgAlt":imgAlt+"코카콜라",
+			"name":"안영란",
+			"site":'코카콜라',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://sarahsportfolio.github.io/cocaCola/"},		
+	   // 수강생_4: 안영란 사이트2 -----------------------------------------------------
+			{"img":suwon03 + "youngran_02.jpg",	"imgAlt":imgAlt+"온라인투어",
+			"name":"안영란",
+			"site":'온라인투어',
+			"useProgram":useProgram + moreProgram,
+			"etc":pc+"1920",
+			"link":"https://sarahsportfolio.github.io/onlineTour/"},
+
+
+		// 수강생_3: 이단비 사이트1 -----------------------------------------------------
+			{"img":suwon03 + "danbi_01.jpg",	"imgAlt":imgAlt+"미샤",
+			"name":"이단비",
+			"site":'미샤',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://leedanbi.github.io/missha"},
+
+		// 수강생_3: 이단비 사이트2 -----------------------------------------------------
+			{"img":suwon03 + "danbi_02.jpg",	"imgAlt":imgAlt+"알라딘(인터넷서점)",
+			"name":"이단비",
+			"site":'알라딘(인터넷서점)',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://leedanbi.github.io/aladin/"},
+			
+		// 수강생_4: 이수진 사이트1 -----------------------------------------------------
+			{"img":suwon03 + "sujin.jpg",	"imgAlt":imgAlt+"개인 포트폴리오 사이트",
+			"name":"이수진",
+			"site":'개인 포트폴리오 사이트',
+			"useProgram":useProgram + moreProgram,
+			"etc":pc,
+			"link":"https://leesujini.github.io/my_portfolio_last/html/myportfolio.html"},
+		
+		// 수강생_5: 이현준 사이트1 -----------------------------------------------------
+			{"img":suwon03 + "hyunjun_01.jpg",	"imgAlt":imgAlt+"게스",
+			"name":"이현준",
+			"site":'게스',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://hjund.github.io/guess/"},
+		// 수강생_5: 이현준 사이트2 -----------------------------------------------------
+			{"img":suwon03 + "hyunjun_02.jpg",	"imgAlt":imgAlt+"피자 알볼로",
+			"name":"이현준",
+			"site":'피자 알볼로',
+			"useProgram":useProgram,
+			"etc":pc,
+			"link":"https://hjund.github.io/pizzaalvolo/"},
+			
+		// 수강생_6: 전혜빈 사이트1 -----------------------------------------------------
+			{"img":suwon03 + "hyebin_01.jpg",	"imgAlt":imgAlt+"서브웨이",
+			"name":"전혜빈",
+			"site":'서브웨이',
+			"useProgram":useProgram + moreProgram,
+			"etc":pc,
+			"link":"https://hyebinjeonportfolio.github.io/subway/html/main.html"},
+			 
+		// 수강생_6: 전혜빈 사이트2 -----------------------------------------------------
+			{"img":suwon03 + "hyebin_02.jpg",	"imgAlt":imgAlt+"JYP 엔터테인먼트",
+			"name":"전혜빈",
+			"site":'JYP 엔터테인먼트',
+			"useProgram":useProgram + moreProgram,
+			"etc":pc,
+			"link":"https://hyebinjeonportfolio.github.io/jyp/"},
+			
+		]}, 
+
+
 	// study과정6 mobile uiux 161230-170526 ============================================================
 		{"study":"2016.12 <br/>Mobile UI/UX 과정",
 		"student": // 임호, 박소정, 김미례, 안민지, 박윤서, 임나현,  김세미
