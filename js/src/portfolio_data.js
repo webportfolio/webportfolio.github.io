@@ -4,16 +4,85 @@
 	var suwon01 = base+"suwon_1606/";
 	var suwon02 = base+"suwon_1612/";
 	var suwon03 = base+"suwon_1705/";
+	var suwon04 = base+"suwon_1711/";
+	var suwon05 = base+"suwon_1804/";
+
 	var gangnam1602 = base+"gangnam_1602";
 
 	var imgAlt = "수강생 포트폴리오 이미지";
 	var person = "개인포트폴리오 ";
 
-	var useProgram = "Photoshop, illustrator, html, css, jQuery";
+	var useProgram = "Photoshop, Illustrator, HTML, CSS, jQuery";
 	var moreProgram = ", scss";
 	var responsive = "mobile, tablet, pc (반응형 웹)";
 	var pc ="pc"; 
 	var pf = [
+// study과정9 smart uxui design 180425-180831 ============================================================
+	/*
+		{"study":"2018.04 <br/>스마트기기 UXUI 디자인 (웹디자인,웹개발) 전문가 과정",
+		"student": // 권이서, 김소영, 박은진, 양용석, 윤정은, 이지영, 이연주, 채유진, 최유빈, 최효정, 홍채림, 황주원
+			[
+      // 수강생_1:  사이트1 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"권이서",
+			"name":"권이서", "site":'아가방-유아복/용품마', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+      // 수강생_1:  사이트2 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"김소영",
+			"name":"김소영", "site":'성심당-베이커리', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+      // 수강생_1:  사이트3 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"박은진",
+			"name":"박은진", "site":'야마하-음악', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+      // 수강생_1:  사이트4 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"양용석",
+			"name":"양용석", "site":'티쏘-시계', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+      // 수강생_1:  사이트5 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"윤정은",
+			"name":"윤정은", "site":'Z-Brush-3D 그래픽프로그램', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+      // 수강생_1:  사이트6 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"이지영",
+			"name":"이지영", "site":'뚜레주르-베이커리', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+      // 수강생_1:  사이트7 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"이연주",
+			"name":"이연주", "site":'매드 포 갈릭-레스토랑', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+      // 수강생_1:  사이트8 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"채유진",
+			"name":"채유진", "site":'무인양품-사무(문구)용품', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+      // 수강생_1:  사이트9 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"최유빈",
+			"name":"최유빈", "site":'러시-천연화장품', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+      // 수강생_1:  사이트10 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"최효정",
+			"name":"최효정", "site":'아우디-자동차브랜드', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+      // 수강생_1:  사이트11 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"홍채림",
+			"name":"홍채림", "site":'맥심-커피브랜드', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+      // 수강생_1:  사이트12 -----------------------------------------------------
+			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"황주원",
+			"name":"황주원", "site":'미도리-문구용품', "useProgram":useProgram, "etc":responsive,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+			]}, //과정9종료
+	*/
+// study과정8 smart uxui design web 1711-1804 ============================================================
+	/*
+		{"study":"2017.11 <br/>스마트기기 UXUI 디자인 (웹디자인,웹개발)과정",
+		"student": // 
+			[
+      // 수강생_1:  사이트1 -----------------------------------------------------
+			{"img":suwon03 + "hayoung.jpg",	"imgAlt":imgAlt+"김하영",
+			"name":"김하영", "site":'ARTBOX', "useProgram":useProgram, "etc":pc,
+			"link":"https://hiyoungkim.github.io/artbox/"},
+			]}, //과정8종료
+	*/
 // study과정7 service web 170530-171030 ============================================================
 		{"study":"2017.05 <br/>service webdesign UI/UX 과정",
 		"student": // 김하영, 박새나, 안영란, 서보람, 이단비, 이수진, 이현준, 전혜빈
