@@ -18,60 +18,68 @@
 	var pc ="pc"; 
 	var pf = [
 // study과정9 smart uxui design 180425-180831 ============================================================
-	/*
+	
 		{"study":"2018.04 <br/>스마트기기 UXUI 디자인 (웹디자인,웹개발) 전문가 과정",
 		"student": // 권이서, 김소영, 박은진, 양용석, 윤정은, 이지영, 이연주, 채유진, 최유빈, 최효정, 홍채림, 황주원
 			[
       // 수강생_1:  사이트1 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"권이서",
-			"name":"권이서", "site":'아가방-유아복/용품마', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
+			{"img":suwon05 + "yeseo.jpg",	"imgAlt":imgAlt+"권이서",
+			"name":"권이서", "site":'아가방-유아복/용품', "useProgram":useProgram, "etc":responsive,
+			"link":" https://yiseo.github.io/agabang_page/"},
       // 수강생_1:  사이트2 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"김소영",
+			{"img":suwon05 + "xoyoung.jpg",	"imgAlt":imgAlt+"김소영",
 			"name":"김소영", "site":'성심당-베이커리', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
+			"link":"http://xoyoung.github.io/sungsimdang"},
       // 수강생_1:  사이트3 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"박은진",
+			{"img":suwon05 + "eunjin.jpg",	"imgAlt":imgAlt+"박은진",
 			"name":"박은진", "site":'야마하-음악', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
+			"link":"https://item629.github.io/yamaha/"},
       // 수강생_1:  사이트4 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"양용석",
+			{"img":suwon05 + "yongseok.jpg",	"imgAlt":imgAlt+"양용석",
 			"name":"양용석", "site":'티쏘-시계', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
+			"link":"https://yangyoungseok.github.io/tissot/"},
       // 수강생_1:  사이트5 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"윤정은",
+			{"img":suwon05 + "amyyoon.jpg",	"imgAlt":imgAlt+"윤정은",
+			"name":"윤정은", "site":'natracare-여성용품회사', "useProgram":useProgram, "etc":responsive,
+			"link":"https://amyyoon.github.io/natracare"},
+      // 수강생_1-2:  사이트5 -----------------------------------------------------
+			{"img":suwon05 + "amyyoon2.jpg",	"imgAlt":imgAlt+"윤정은",
 			"name":"윤정은", "site":'Z-Brush-3D 그래픽프로그램', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
+			"link":"https://amyyoon.github.io/zbrush"},
       // 수강생_1:  사이트6 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"이지영",
+			{"img":suwon05 + "evelyz.jpg",	"imgAlt":imgAlt+"이지영",
 			"name":"이지영", "site":'뚜레주르-베이커리', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
-      // 수강생_1:  사이트7 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"이연주",
+			"link":"https://evelyz924.github.io/touslesjours/"},
+      // 수강생_1-1:  사이트7 -----------------------------------------------------
+			{"img":suwon05 + "yeonju.jpg",	"imgAlt":imgAlt+"이연주",
 			"name":"이연주", "site":'매드 포 갈릭-레스토랑', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
+			"link":"https://yeonju0927.github.io/mad-for-garlic/"},
+      // 수강생_1-2:  사이트7 -----------------------------------------------------
+			{"img":suwon05 + "yeonju2.jpg",	"imgAlt":imgAlt+"이연주",
+			"name":"이연주", "site":'카카오i-카카오인공지능제품', "useProgram":useProgram, "etc":responsive,
+			"link":"https://yeonju0927.github.io/kakaoi/"},
       // 수강생_1:  사이트8 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"채유진",
+			{"img":suwon05 + "yujinchae.jpg",	"imgAlt":imgAlt+"채유진",
 			"name":"채유진", "site":'무인양품-사무(문구)용품', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
+			"link":"https://yujinchae.github.io/MUJI"},
       // 수강생_1:  사이트9 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"최유빈",
+			{"img":suwon05 + "choiyubin.jpg",	"imgAlt":imgAlt+"최유빈",
 			"name":"최유빈", "site":'러시-천연화장품', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
+			"link":"https://choiyubin0604.github.io/lush/"},
       // 수강생_1:  사이트10 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"최효정",
+			{"img":suwon05 + "hyorom.jpg",	"imgAlt":imgAlt+"최효정",
 			"name":"최효정", "site":'아우디-자동차브랜드', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
+			"link":"https://hyorom.github.io/audi-project/ "},
       // 수강생_1:  사이트11 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"홍채림",
+			{"img":suwon05 + "chearimhong.jpg",	"imgAlt":imgAlt+"홍채림",
 			"name":"홍채림", "site":'맥심-커피브랜드', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
+			"link":"https://chearimhong.github.io/h_maxim/"},
       // 수강생_1:  사이트12 -----------------------------------------------------
-			{"img":suwon05 + "hayoung.jpg",	"imgAlt":imgAlt+"황주원",
+			{"img":suwon05 + "joowonh.jpg",	"imgAlt":imgAlt+"황주원",
 			"name":"황주원", "site":'미도리-문구용품', "useProgram":useProgram, "etc":responsive,
-			"link":"https://hiyoungkim.github.io/artbox/"},
+			"link":"https://joowonh93.github.io/midoriweb/"},
 			]}, //과정9종료
-	*/
+	
 // study과정8 smart uxui design web 1711-1804 ============================================================
 	/*
 		{"study":"2017.11 <br/>스마트기기 UXUI 디자인 (웹디자인,웹개발)과정",
